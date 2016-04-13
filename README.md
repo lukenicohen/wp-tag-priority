@@ -1,6 +1,6 @@
-# Tag Priority-status Flag
+# WordPress Tag Priority Flag
 
-This plugin replicates the functionality in the RadioTimes CMS, which enables authors to add 'priority' status to a given tag.
+This plugin enables an author to tell WordPress that a post has 'priority' in a given tag or other taxonomy.
 
 ## Adding priority status to a tag
 
