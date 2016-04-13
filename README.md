@@ -1,10 +1,10 @@
 # Tag Priority-status Flag
 
-This plugin replicates the functionality in the RadioTimes CMS, which enables authors to add 'priority' status to a given tag. 
+This plugin replicates the functionality in the RadioTimes CMS, which enables authors to add 'priority' status to a given tag.
 
 ## Adding priority status to a tag
 
-![Image of priority flagging a tag](https://raw.github.immediate.co.uk/WCP/im-taxrel-meta/master/tag-flag.jpg?token=AAAAuxeNg5rAS2a4yzL2PZkP6Z7e4z8vks5XF60ewA%3D%3D)
+![Image of priority flagging a tag](https://raw.githubusercontent.com/lukenicohen/wp-tag-priority/master/tag-flag.jpg)
 
 To flag a post's tag as having priority in that tag, you simply click the grey exclamation mark icon in the tag on the post editor. If the icon turns red, it indicates priority.
 
@@ -18,7 +18,7 @@ The way this plugin adds a priority flag is by creating a 'shadow taxonomy', a s
 
 There are two parts to this tag, the first, before __ is the taxonomy type slug. WordPress has many types of taxonomy, including basic tags, custom types of tags and categories. The taxonomy type slug goes first, as when querying later on we need to only retrieve priority tags of the type we wish.
 
-The second part of that tag is 'christmas-feature', which is the slug of the tag we wish to apply priority status to. 
+The second part of that tag is 'christmas-feature', which is the slug of the tag we wish to apply priority status to.
 
 ## Retrieving posts that have a tag and priority in that tag
 
